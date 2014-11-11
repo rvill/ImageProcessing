@@ -1,5 +1,6 @@
 import re
 
+
 textfile=open('url.txt')
 filetext = textfile.read()
 textfile.close()
