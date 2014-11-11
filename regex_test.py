@@ -1,4 +1,3 @@
-#prints  each group as a separate line
 import re
 
 textfile=open('url.txt')
