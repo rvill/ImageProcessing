@@ -1,9 +1,10 @@
 #prints  each group as a separate line
 import re
 
-file = open('url.txt')
-text = file.read()
-matchstr = re.findall(r'https://farm4.staticflickr.com?.\d+.d+',text)
-for image_ids in text:
-    print image_ids
+textfile=open('url.txt')
+filetext = textfile.read()
+textfile.close()
+#find all 10-11 digits (picture ids) in textfile
+matches = re.findall('\d{10,11}',filetext)
+print matches
 
