@@ -1,5 +1,6 @@
-import re
 
+#reference: regular expression cheat sheet, http://www.rexegg.com/regex-quickstart.html
+import re
 
 textfile=open('url.txt')
 filetext = textfile.read()
