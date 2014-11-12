@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-#This code gets full resolution image from flickr image ids, and so bypassing the flickr api limit of medium-sized images only. 
+#This code gets a full resolution image from flickr image ids, thus bypassing the flickr api limit of medium-sized images only. 
 
 import urllib
 import os
@@ -8,8 +8,8 @@ import argparse
  
 import flickrapi
  
-api_key = '005b8c46e4020bd2639342676d41cfcc'
-api_secret = '95940c26dc30095f'
+api_key = 'key'
+api_secret = 'secret'
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--auth', action='store_true')
