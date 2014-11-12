@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-#This code gets full resolution image from flickr image ids, and so bypassing the flickr api limit of medium-sized images only. 
+#This code gets a full resolution image from flickr image ids, thus bypassing the flickr api limit of medium-sized images only. 
 
 import urllib
 import os
