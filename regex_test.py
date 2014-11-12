@@ -1,4 +1,5 @@
-#prints  each group as a separate line
+
+#reference: regular expression cheat sheet, http://www.rexegg.com/regex-quickstart.html
 import re
 
 textfile=open('url.txt')
