@@ -29,16 +29,6 @@ for query_tag in query_tags:
         time.sleep(1)
         url = photo.get('url_z')
         if url is not None:
-            #add
-           # f = open("/home/rvill/Desktop/research/image-scraping/geosearch-flickr/flickrcrawler-master/img/tag/output_tags.txt", "w")
-            #f.write(query_tag + '\n')
-            #f.write(str(current_num))
-           # f.write(url + '\n')
-             #need to encode characters, otherwise 'ascii' codec can't encode  
-           # f.write(photo.get('tags').encode('ascii','ignore').decode('ascii'))
-           # f.close()
-    
-            #end  add
             print query_tag, current_num, url
             print photo.get('tags')
             file_name = path + '/' + str(current_num) + '.jpg'
