@@ -4,8 +4,8 @@ import string
 import os
 import time
 
-api_key = '005b8c46e4020bd2639342676d41cfcc'
-secret ='95940c26dc30095f'
+api_key = 'key'
+secret ='secret'
 
 # read query
 query_retrieve_num = 5
