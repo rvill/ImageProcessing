@@ -7,8 +7,8 @@ import re
 import  flickrapi
 
 
-api_key = '005b8c46e4020bd2639342676d41cfcc'  
-api_secret = '95940c26dc30095f'  
+api_key = 'api-key'  
+api_secret = 'api-secret'  
 
 flickr = flickrapi.FlickrAPI(api_key,api_secret)
 
