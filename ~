@@ -1,0 +1,10 @@
+import re
+
+
+text = open('url.txt','r').read()
+result = re.findall("r'^(https://)?(farm4\.)?(staticflickr\.com/)?(\d+)?(\D+)(\d+).'",text)
+
+for output in result:
+
+    print output
+
