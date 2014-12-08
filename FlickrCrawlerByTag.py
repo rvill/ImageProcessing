@@ -30,7 +30,7 @@ for query_tag in query_tags:
         url = photo.get('url_z')
         if url is not None:
             print query_tag, current_num, url
-            print photo.get('tags')
+            print photo.get('tags').encode('utf-8')
             file_name = path + '/' + str(current_num) + '.jpg'
             urllib.urlretrieve(url, file_name)
             current_num += 1
