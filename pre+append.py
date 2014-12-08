@@ -6,6 +6,8 @@ import sys
 with open("raw_output.txt", "r+") as f:
     old = f.read()
     f.seek(0)
+    f.write('#!/usr/bin/env python\n')
+    f.write('#-*- coding: utf-8 -*-\n')
     f.write('import re\n')
     f.write('myString = """')
     f.close()
