@@ -7,8 +7,8 @@ import sys
 
 
 
-api_key = '268ca31b97d7688589fc5aa47b13b9c5'
-secret ='0ad7fa854c354625'
+api_key = 'key'
+secret ='secret'
 
 # read query
 query_retrieve_num = 10
